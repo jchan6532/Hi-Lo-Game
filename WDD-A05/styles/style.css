@@ -1,0 +1,77 @@
+﻿/*
+* Filename      :  style.css
+* project       :  web design development Client Hi-Lo Game with server side validation
+* By            :  Justin Chan, Paige Lam
+* Date          :  Nov 8th, 2021
+* Description   :  This cascading style sheet contains the styling for play name, max number entry, 
+*                  and guess number pages of the hi-lo game
+*/
+
+/*html font style*/
+html {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(196, 9, 9);
+}
+
+/*body style*/
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    min-height: 100vh;
+}
+
+/*center div style*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(233, 240, 216);
+    box-shadow: 15px 15px 10px rgba(33,45,58,0.3);
+    overflow: hidden;
+    position: relative;
+}
+
+/*center div form style*/
+.center form {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+/*center form textbox style*/
+.center form .tbx {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+/*input style*/
+input {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/*error message style*/
+.errorMsg {
+    color: #c12020;
+    font-weight: bold;
+}

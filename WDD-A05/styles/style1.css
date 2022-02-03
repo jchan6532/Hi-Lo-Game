@@ -1,0 +1,30 @@
+﻿/*
+* Filename      : style1.css
+* project       : WDD: A5 - Client Hi-Lo Game with Server Side Validation
+* By            : Justin Chan, Paige Lam
+* Date          : Nov 8th, 2021
+* Description   : This css page contains styling for the play again page of the hi-lo game
+*/
+
+/*body style*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: green;
+}
+
+/*center div style*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*center div form style*/
+.center form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
